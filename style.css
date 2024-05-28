@@ -1,0 +1,180 @@
+html {
+    display: flex;
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    flex: 1 1 100px;
+  }
+  
+  body {
+    justify-content: center;
+  }
+  
+  .logo {
+    display: inline-flex;
+    width: 100%;
+    flex-basis: 1200px;
+    height: 69px;
+    margin: auto;
+  }
+  
+  .banner {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  
+  .mission {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 1200px;
+    flex-flow: column wrap;
+    color: seashell;
+  }
+  
+  .month {
+    display: inline-flex;
+    width: 1000px;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .month img {
+    display: inline-flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 300px;
+    height: 200px;
+    padding: 5px 15px;
+  }
+  
+  .locations {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-flow: row reverse wrap;
+  }
+  
+  .tile {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    flex-direction: column;
+    margin: 15px 20px;
+    color: seashell;
+    opacity: 1;
+  }
+  
+  #locations h2 {
+    display: flex;
+    width: 1000px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .locations h3,
+  .locations h4 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: seashell;
+  }
+  
+  header {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+  }
+  
+  header a {
+    display: inline-flex;
+    text-decoration: none;
+    color: seashell;
+    justify-content: flex-end;
+    padding: 20px;
+    flex: 1 3 150px;
+    flex-wrap: nowrap;
+  }
+  
+  header a:hover {
+    color: blue;
+  }
+  
+  header a:active {
+    color: purple;
+  }
+  
+  header img {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  .center {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    flex-wrap: wrap;
+  }
+  
+  .center h2,
+  .center h3,
+  .center h4,
+  .center h5 {
+    display: inline-flex;
+    margin: 20px 0px;
+    font-weight: 700;
+    color: seashell;
+  }
+  
+  .tile h3,
+  .tile h4 {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    color: seashell;
+    opacity: 1;
+    line-height: 10px;
+    padding: 0px 5px;
+  }
+  
+  .cozy {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+  
+  footer h4 {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
